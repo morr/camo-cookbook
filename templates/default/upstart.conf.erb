@@ -21,7 +21,7 @@ script
    set -x
    # See http://upstart.ubuntu.com/cookbook/#run-a-job-as-a-different-user
    # can't use setuid until upstart 1.4
-   DAEMON="/usr/bin/node"
+   DAEMON="/usr/local/bin/node"
    DAEMON_OPTS="server.js"
    APP_DIR="<%= node['camo']['path'] %>/current"
    APP_USER="<%= node['camo']['user'] %>"
