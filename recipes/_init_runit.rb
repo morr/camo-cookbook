@@ -30,7 +30,8 @@ runit_service node['camo']['app_name'] do
     'CAMO_LOGGING_ENABLED'      => ops['logging'],
     'CAMO_MAX_REDIRECTS'        => ops['max_redirects'].to_s,
     'CAMO_SOCKET_TIMEOUT'       => ops['socket_timeout'].to_s,
-    'CAMO_TIMING_ALLOW_ORIGIN'  => ops['timing_allow_origin'].to_s
+    'CAMO_TIMING_ALLOW_ORIGIN'  => ops['timing_allow_origin'].to_s,
+    'CAMO_ALLOWED_HOSTS'        => (ops['allowed_hosts'] || []).join(',')
   )
   options(
     :user => ops['user'],
