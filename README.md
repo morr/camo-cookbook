@@ -57,6 +57,8 @@ Please see the [camo documentation](https://github.com/atmos/camo#configuration)
 * `node['camo']['timing_allow_origin'] = nil`
 * `node['camo']['hostname'] = "unknown"`
 * `node['camo']['keep_alive'] = false`
+* `node['camo']['allowed_hosts'] = []`
+* `node['camo']['endpoint_path'] = ''`
 
 ## Init Style: Systemd
 

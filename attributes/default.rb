@@ -43,3 +43,5 @@ default['camo']['socket_timeout'] = 10
 default['camo']['timing_allow_origin'] = nil
 default['camo']['hostname'] = 'unknown'
 default['camo']['keep_alive'] = false
+default['camo']['allowed_hosts'] = []
+default['camo']['endpoint_path'] = ''
