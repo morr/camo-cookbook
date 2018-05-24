@@ -27,6 +27,8 @@ script
    APP_USER="<%= node['camo']['user'] %>"
    export NODE_ENV="<%= node.chef_environment %>"
    export PORT=<%= node['camo']['port'] %>
+   export CAMO_ALLOWED_HOSTS="<%= node['camo']['allowed_hosts'] %>"
+   export CAMO_ENDPOINT_PATH="<%= node['camo']['endpoint_path'] %>"
    export CAMO_HEADER_VIA="<%= node['camo']['header_via'] %>"
    export CAMO_KEY="<%= node['camo']['key'] %>"
    export CAMO_LENGTH_LIMIT="<%= node['camo']['length_limit'] %>"
