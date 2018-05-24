@@ -33,7 +33,7 @@ default['camo']['init_style'] = value_for_platform(
 )
 
 # config
-default['camo']['port'] = 8_081
+default['camo']['port'] = 8_057
 default['camo']['header_via'] = nil
 default['camo']['key'] = 'FEEDFACEDEADBEEFCAFE'
 default['camo']['logging'] = 'disabled'
@@ -44,4 +44,4 @@ default['camo']['timing_allow_origin'] = nil
 default['camo']['hostname'] = 'unknown'
 default['camo']['keep_alive'] = false
 default['camo']['allowed_hosts'] = []
-default['camo']['endpoint_path'] = ''
+default['camo']['endpoint_path'] = '/camo'
