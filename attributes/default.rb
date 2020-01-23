@@ -38,6 +38,7 @@ default['camo']['header_via'] = nil
 default['camo']['key'] = 'FEEDFACEDEADBEEFCAFE'
 default['camo']['logging'] = 'disabled'
 default['camo']['length_limit'] = 5_242_880
+default['camo']['length_limit_redirect'] = '1'
 default['camo']['max_redirects'] = 4
 default['camo']['socket_timeout'] = 10
 default['camo']['timing_allow_origin'] = nil
